@@ -1,0 +1,11 @@
+.links {
+    border: 1px solid green;
+    display: flex;
+}
+
+@media screen and (max-width: 320px) {
+    .links {
+        flex-direction: column;
+        gap: 32px;
+    }
+}

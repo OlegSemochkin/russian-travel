@@ -1,0 +1,25 @@
+.links__link {
+  margin: 0;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  padding-right: 18px;
+}
+
+.links__link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 320px){
+  .links__link {
+    font-size: 24px;
+  line-height: 1;
+  
+  }
+}
+
+
+
+
