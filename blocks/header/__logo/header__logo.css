@@ -1,21 +1,19 @@
 .header__logo {
-position: absolute;
-top: 28px;
-left: 4.68vw;
+width: 176px;
+
 }
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .header__logo {
-      top: 28px;
-      left: 3.12vw;
+      margin: 28px 0 0 24px;
     }
-}
+} */
 
-@media screen and (max-width: 320px) {
-    .header__logo {
-      top: 16px;
-      left: 5vw;
-      width: 142px;
-    }
+
+@media screen and (max-width: 425px) {
+  .header__logo {
+    /* margin: 16px 0 0 16px; */
+    width: 142px;
+  }
 }

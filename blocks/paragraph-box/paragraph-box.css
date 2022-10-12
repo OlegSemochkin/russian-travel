@@ -1,0 +1,14 @@
+.paragraph-box {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+
+@media screen and (max-width: 850px) {
+    .paragraph-box {
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 25px;
+       
+}

@@ -3,14 +3,22 @@
     display: flex;
     flex-direction: column;    
     justify-content: flex-end;   
+    
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 850px) {
+.website {
+/* margin-right: 48px; */
+
+}
+
+
+@media screen and (max-width: 500px) {
     .website {
         padding-bottom: 32px;
-        display: flex;
-        flex-direction: column;    
-        justify-content: flex-end; 
-        padding-left: 5vw;
-        padding-right: 5vw;
+        padding-left: 16px;
+        padding-right: 16px;
+        max-width: 80%;
     }
+
+   

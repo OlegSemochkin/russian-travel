@@ -4,9 +4,10 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 4;
+    
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .place__image {
         padding-bottom: 32px;
     }

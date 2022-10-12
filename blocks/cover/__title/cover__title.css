@@ -3,12 +3,18 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 1.06;
-    padding-top: 195px;
+    padding-top: 245px;
     text-align: center;
     width: 560px;
     text-decoration: none;
     color: #FFFFFF;    
     z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        padding-top: 195px; 
+    }
 }
 
 
@@ -17,10 +23,13 @@
         padding-top: 115px;      
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .cover__title {      
       padding-top: 33px;  
       font-size: 32px;
     line-height: 1.09; 
-    width: 90%;  
+    padding-left: 16px;
+    padding-right: 16px;
+    /* max-width: 288px; */
+    /* width: 70vw;   */
 }

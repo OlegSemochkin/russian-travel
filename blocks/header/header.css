@@ -1,32 +1,21 @@
-.header {  
+.header {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: space-between;
   position: relative;
-  padding: 28px 48px;
-  width: 92.5%;  
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 28px;
 }
-
-@media screen and (max-width: 1024px) {
-  .header {
-    
-    width: 90%;
-  }
-}
-
-
-
 
 @media screen and (max-width: 768px) {
-  .header {        
-      width: 93%;
-      padding: 28px 3.12vw;
+  .header {
+    padding: 28px 24px 0 24px;
   }
 }
 
 
-@media screen and (max-width: 320px) {  .header {        
-      width: 90%;
-      padding: 16px 5vw;
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 16px 16px 0 16px;
   }
 }

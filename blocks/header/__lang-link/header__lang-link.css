@@ -9,7 +9,7 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .header__lang-link {
     margin: 0;
     padding: 14px 0px 8px 14px;  
