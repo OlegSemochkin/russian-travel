@@ -1,24 +1,17 @@
 .website {
     padding-bottom: 48px;
     display: flex;
-    flex-direction: column;    
-    justify-content: flex-end;   
-    
-}
-
-@media screen and (max-width: 850px) {
-.website {
-/* margin-right: 48px; */
+    flex-direction: column;
+    justify-content: flex-end;
 
 }
 
 
 @media screen and (max-width: 500px) {
-    .website {
-        padding-bottom: 32px;
-        padding-left: 16px;
-        padding-right: 16px;
-        max-width: 80%;
-    }
-
-   
+  .website {
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 80%;
+  }
+}

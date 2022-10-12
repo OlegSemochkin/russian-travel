@@ -1,28 +1,10 @@
 .lead__image {
   width: 100%;
-  
-  
-  
 }
 
-/* @media screen and (max-width: 1024px) {
-  .lead__image {    
-    padding-top: 56px;
-    width: 90.6%;
-    padding-left: 48px;
-    padding-right: 48px;
-  } */
-}
+
 
 @media screen and (max-width: 768px) {
-  .lead__image {    
-    padding-top: 56px;
+  .lead__image {
     width: 100%;
   }
-
-
-@media screen and (max-width: 460px) {
-  .lead__image {    
-    padding-top: 40px;
-  }
-}
