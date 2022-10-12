@@ -8,12 +8,12 @@
 @media screen and (max-width: 850px) {
   .paragraph-box {
     gap: 25px;
-
   }
+}
 
-  @media screen and (max-width: 500px) {
-    .paragraph-box {
-      margin-left: 16px;
-      margin-right: 16px;
-    }
+@media screen and (max-width: 500px) {
+  .paragraph-box {
+    margin-left: 16px;
+    margin-right: 16px;
   }
+}
