@@ -4,7 +4,6 @@
   gap: 27px;
 }
 
-
 @media screen and (max-width: 850px) {
   .paragraph-box {
     gap: 25px;

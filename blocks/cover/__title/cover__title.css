@@ -17,11 +17,10 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .cover__title {
     padding-top: 115px;
- }
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -32,5 +31,5 @@
     padding-left: 16px;
     padding-right: 16px;
     max-width: 265px;
-    }
+  }
 }

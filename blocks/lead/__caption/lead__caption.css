@@ -10,16 +10,11 @@
   text-transform: uppercase;
 }
 
-
-
-
 @media screen and (max-width: 1024px) {
   .lead__caption {
     margin-left: 4.68vw;
   }
 }
-
-
 
 @media screen and (max-width: 768px) {
   .lead__caption {

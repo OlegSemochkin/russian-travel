@@ -10,15 +10,11 @@
   list-style: none;
 }
 
-
 @media screen and (max-width: 768px) {
   .intro__list {
     margin-bottom: 88px;
   }
 }
-
-
-
 
 @media screen and (max-width: 425px) {
   .intro__list {
