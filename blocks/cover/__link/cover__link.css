@@ -4,14 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../../../sprint-3-images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
-  position: relative;
-  z-index: 1;
+  
 }
 
-.cover__link::after {
+/* .cover__link::after {
   content: '';
   position: absolute;
   top: 0;
@@ -25,4 +24,4 @@
 
 .cover__link:hover {
   opacity: .8;
-}
+} */
