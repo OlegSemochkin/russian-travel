@@ -8,4 +8,6 @@
   -moz-text-size-adjust: 100%;
   background-color: #2A2C2F;
   position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
 }
