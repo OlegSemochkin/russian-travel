@@ -1,17 +1,17 @@
-.paragraph-box {
+.place__paragraphs {
   display: flex;
   flex-direction: column;
   gap: 27px;
 }
 
 @media screen and (max-width: 850px) {
-  .paragraph-box {
+  .place__paragraphs {
     gap: 25px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .paragraph-box {
+  .place__paragraphs {
     margin-left: 16px;
     margin-right: 16px;
   }

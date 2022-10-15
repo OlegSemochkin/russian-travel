@@ -1,16 +1,25 @@
 .header__lang-link {
   margin: 0;
   text-decoration: none;
-  padding: 18px 0px 6px 18px;
+  padding: 18px 18px 6px 0px;
   font-size: 24px;
   line-height: 1.17;
   font-weight: 400;
   color: #FFFFFF;
+  transition: opacity .5s ease-in-out;
+}
+
+.header__lang-link:last-child {
+  padding-right: 0;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 500px) {
   .header__lang-link {
-    padding: 14px 0px 8px 14px;
+    padding: 14px 19px 8px 0;
     font-size: 18px;
     line-height: 1.11;
   }

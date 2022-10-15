@@ -3,8 +3,33 @@
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
+  height: calc((100vw - 96px)*.625);
+}
+
+.cover__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+  z-index: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.cover__link:hover:before {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    height: calc(100vw*.625);
+  }
 }

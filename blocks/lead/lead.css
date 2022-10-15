@@ -2,4 +2,17 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
 }
