@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: center;
   height: calc((100vw - 96px)*.625);
+  max-height: 740px;
 }
 
 .cover__link::before {
